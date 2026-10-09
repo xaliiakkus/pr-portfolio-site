@@ -1,0 +1,13 @@
+# Orbly Studio
+
+Orbly Studio is an independent portfolio of web, mobile, community, marketplace, local service, logistics, and game projects.
+
+## Product pages
+
+- Orbly.social: https://orbly-studio.fabledpixie4.chatgpt.site/projects/orbly-social.html
+- FormaPazar: https://orbly-studio.fabledpixie4.chatgpt.site/projects/formapazar.html
+- TemizHaliYika: https://orbly-studio.fabledpixie4.chatgpt.site/projects/temizhaliyika.html
+- Yükledim Marketplace: https://orbly-studio.fabledpixie4.chatgpt.site/projects/yukledim.html
+- Orbly Match: https://orbly-studio.fabledpixie4.chatgpt.site/projects/orbly-match.html
+- Orbly Puzzle: https://orbly-studio.fabledpixie4.chatgpt.site/projects/orbly-puzzle.html
+- Nöbetçi Berber: https://orbly-studio.fabledpixie4.chatgpt.site/projects/nobetci-berber.html
