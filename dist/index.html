@@ -20,20 +20,25 @@
   </header>
 
   <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="eyebrow">Bağımsız dijital ürün portföyü</div>
-      <h1 id="hero-title">Günlük hayatı, toplulukları ve oyunları birbirine bağlayan ürünler.</h1>
-      <p class="hero-copy">Orbly Studio; keşif, güven ve pratik kullanım etrafında şekillenen web platformlarını ve oyun projelerini aynı çatı altında toplar.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="#products">Ürünleri keşfet -></a>
-        <a class="button button-secondary" href="#about">Stüdyoyu tanı</a>
+    <section class="hero hero-3d" aria-labelledby="hero-title">
+      <canvas id="scene-canvas" aria-hidden="true"></canvas>
+      <div class="scene-grid" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="eyebrow">Orbly Studio / 2026</div>
+        <h1 id="hero-title">Dijital ürünler<br><em>yörüngede.</em></h1>
+        <p class="hero-copy">Topluluklardan lojistiğe, oyunlardan yerel hizmetlere uzanan bağımsız ürün evreni.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#products">Evreni keşfet -></a>
+          <a class="button button-secondary" href="#about">Stüdyo hakkında</a>
+        </div>
+        <div class="hero-index" aria-label="Ürün kategorileri">
+          <span><i class="dot dot-purple"></i>Sosyal</span>
+          <span><i class="dot dot-lime"></i>Oyun</span>
+          <span><i class="dot dot-blue"></i>Hizmet</span>
+          <span><i class="dot dot-orange"></i>Pazar yeri</span>
+        </div>
       </div>
-      <div class="hero-index" aria-label="Ürün kategorileri">
-        <span><i class="dot dot-purple"></i>Sosyal</span>
-        <span><i class="dot dot-lime"></i>Oyun</span>
-        <span><i class="dot dot-blue"></i>Hizmet</span>
-        <span><i class="dot dot-orange"></i>Pazar yeri</span>
-      </div>
+      <div class="scene-hint" aria-hidden="true"><span class="scene-hint-line"></span><span>Hareket ettir</span></div>
     </section>
 
     <section class="section" id="products" aria-labelledby="products-title">
