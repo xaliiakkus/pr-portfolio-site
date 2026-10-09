@@ -105,7 +105,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .product-card:nth-child(1), .product-card:nth-child(4) { grid-column: span 2; }
 .product-media { display: block; aspect-ratio: 16 / 9; overflow: hidden; background: var(--slate-2); }
 .product-media img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; filter: saturate(.86); transition: transform .55s ease, filter .55s ease; }
-.product-card:hover .product-media img { transform: scale(1.035); filter: saturate(1); }
+.product-media.is-logo { display: grid; place-items: center; background: var(--slate-2); }
+.product-media.is-logo img { width: min(190px, 32%); height: min(190px, 72%); object-fit: contain; filter: none; border-radius: 24px; box-shadow: 0 24px 44px -30px rgba(0, 0, 0, .78); }
+.product-media.is-logo:hover img { transform: scale(1.035); filter: none; }
+.product-card:hover .product-media:not(.is-logo) img { transform: scale(1.035); filter: saturate(1); }
 .product-card > .card-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 24px 0; }
 .product-card > h3 { padding: 0 24px; }
 .product-card > p { padding: 0 24px; }
