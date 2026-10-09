@@ -163,6 +163,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 /* Product pages are cinematic: paper narrative on the left, real product media on a dark canvas. */
 .detail-hero { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr); gap: clamp(38px, 7vw, 96px); align-items: center; max-width: 1280px; min-height: 700px; margin: 0 auto; padding: 72px 32px 112px; }
 .detail-hero-copy { min-width: 0; }
+.project-brand { display: flex; align-items: center; gap: 14px; margin-top: 28px; color: var(--muted); font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.project-brand img { display: block; width: 64px; height: 64px; padding: 7px; object-fit: contain; border: 1px solid var(--line); border-radius: 18px; background: var(--slate); box-shadow: 0 16px 30px -22px rgba(24, 32, 29, .7); }
 .detail-hero h1 { max-width: 620px; margin: 24px 0 24px; font-family: "Instrument Serif", Georgia, serif; font-size: clamp(72px, 10vw, 142px); font-weight: 400; line-height: .82; letter-spacing: -.018em; }
 .detail-hero h1 em { color: var(--accent); font-style: italic; }
 .detail-hero .hero-copy { max-width: 510px; margin: 0; font-size: 17px; }
@@ -211,6 +213,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   .scene-hint-line { width: 20px; }
   .detail-hero { grid-template-columns: 1fr; gap: 42px; min-height: auto; padding: 62px 20px 76px; }
   .detail-hero h1 { font-size: clamp(72px, 20vw, 112px); }
+  .project-brand { margin-top: 24px; }
   .detail-hero .hero-copy { font-size: 16px; }
   .detail-meta { margin-top: 38px; }
   .detail-visual, .detail-visual img { min-height: 420px; }
